@@ -1,0 +1,12 @@
+?
+createFile file1.txt a b c d e f g
+printFile file1.txt
+lastModified file1.txt
+size file1.txt
+rename file1.txt newFile1.txt
+mkdir dir
+createFile dir/file2.txt 1 2 3 4 5 6 7 8 9
+printFile dir/file2.txt
+rename dir/file2.txt dir/newFile2.txt
+list  .
+list dir

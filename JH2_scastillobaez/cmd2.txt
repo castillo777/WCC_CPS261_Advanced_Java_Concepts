@@ -1,0 +1,13 @@
+createFile file2.txt x y z
+printFile file2.txt
+list  .
+delete newFile1.txt
+delete file2.txt
+delete dir/newFile2.txt
+delete dir
+printFile unknown.txt
+size unknown.txt
+lastModified unknown.txt
+rename unknown.txt newUnknown.txt
+list .
+quit

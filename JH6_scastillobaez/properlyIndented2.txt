@@ -1,0 +1,27 @@
+class Test
+{
+    // This is a meaningless piece of code
+    // Don't try to make any sense out of it.
+
+    String sWord;
+    int index=3;
+
+    public void test(int x, int y)
+    {
+        int x2=1, y2=2;
+
+        if (x == x2)
+        {
+            if (y==y2)
+            {
+                if (x == y2)
+                {
+                    if ( x2 == index)
+                    {
+                        sWord ="abc";
+                    }
+                }
+            }
+        }
+    }
+}
